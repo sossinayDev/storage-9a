@@ -27,6 +27,16 @@
             }
         },
         {
+            "item": "crate",
+            "position": [
+                4,
+                2
+            ],
+            "properties": {
+                "moveable": 0
+            }
+        },
+        {
             "item": "pressure_plate",
             "position": [
                 3,
