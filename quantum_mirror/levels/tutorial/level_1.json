@@ -1,0 +1,42 @@
+{
+    "data": {
+        "name": "Tutorial Level",
+        "difficulty": "Tutorial",
+        "door": 0,
+        "level_time": 5,
+        "spawn_point": [
+            -235,
+            -125
+        ]
+    },
+    "door_predicates": [
+        {
+            "type": "is_powered?",
+            "target": "plate_1"
+        }
+    ],
+    "items": [
+        {
+            "item": "crate",
+            "position": [
+                2,
+                2
+            ],
+            "properties": {
+                "moveable": 1
+            }
+        },
+        {
+            "item": "pressure_plate",
+            "position": [
+                3,
+                0
+            ],
+            "properties": {
+                "powered": 0,
+                "locked": 0,
+                "powerid": "plate_1"
+            }
+        }
+    ]
+}
