@@ -1,0 +1,12 @@
+{
+    "ordered": [
+        "medium/level_2.json"
+    ],
+
+    "tutorial": [
+        "tutorial1.json"
+    ],
+    "medium": [
+        "StackingRigids.json"
+    ]
+}
