@@ -4,7 +4,7 @@
         "difficulty": "Medium",
         "door": 0,
         "clones": 3,
-        "level_time": 5,
+        "level_time": 7,
         "spawn_point": [
             -235,
             -125
