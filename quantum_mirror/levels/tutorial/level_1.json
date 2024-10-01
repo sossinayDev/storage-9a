@@ -3,6 +3,7 @@
         "name": "Tutorial Level",
         "difficulty": "Tutorial",
         "door": 0,
+        "clones": 2,
         "level_time": 5,
         "spawn_point": [
             -235,
