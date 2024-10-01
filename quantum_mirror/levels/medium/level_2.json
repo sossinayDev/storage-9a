@@ -1,7 +1,7 @@
 {
     "data": {
         "name": "Stacking rigids",
-        "difficulty": "Easy",
+        "difficulty": "Medium",
         "door": 0,
         "level_time": 5,
         "spawn_point": [
@@ -55,7 +55,7 @@
             }
         },
         {
-            "item": "pressure_plate",
+            "item": "heavy_pressure_plate",
             "position": [
                 7,
                 2
@@ -67,7 +67,7 @@
             }
         },
         {
-            "item": "pressure_plate",
+            "item": "heavy_pressure_plate",
             "position": [
                 8,
                 2
@@ -79,7 +79,7 @@
             }
         },
         {
-            "item": "pressure_plate",
+            "item": "heavy_pressure_plate",
             "position": [
                 9,
                 2
