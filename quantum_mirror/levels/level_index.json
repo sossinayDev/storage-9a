@@ -1,5 +1,6 @@
 {
     "ordered": [
+        "easy/push.json",
         "medium/StackingRigids.json"
     ],
 

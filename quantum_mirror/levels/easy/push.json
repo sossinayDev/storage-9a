@@ -1,0 +1,95 @@
+{
+    "data": {
+        "name": "Push",
+        "difficulty": "Easy",
+        "door": 200,
+        "clones": 3,
+        "level_time": 5,
+        "spawn_point": [
+            -235,
+            -125
+        ]
+    },
+    "door_predicates": [
+        {
+            "type": "is_powered?",
+            "target": "plate_1"
+        },
+        {
+            "type": "is_powered?",
+            "target": "plate_2"
+        },
+        {
+            "type": "is_powered?",
+            "target": "plate_3"
+        }
+    ],
+    "items": [
+        {
+            "item": "crate",
+            "position": [
+                2,
+                2
+            ],
+            "properties": {
+                "moveable": 1
+            }
+        },
+        {
+            "item": "crate",
+            "position": [
+                4,
+                2
+            ],
+            "properties": {
+                "moveable": 1
+            }
+        },
+        {
+            "item": "crate",
+            "position": [
+                6,
+                2
+            ],
+            "properties": {
+                "moveable": 1
+            }
+        },
+        {
+            "item": "heavy_pressure_plate",
+            "position": [
+                2,
+                1
+            ],
+            "properties": {
+                "powered": 0,
+                "locked": 0,
+                "powerid": "plate_1"
+            }
+        },
+        {
+            "item": "heavy_pressure_plate",
+            "position": [
+                4,
+                1
+            ],
+            "properties": {
+                "powered": 0,
+                "locked": 0,
+                "powerid": "plate_2"
+            }
+        },
+        {
+            "item": "heavy_pressure_plate",
+            "position": [
+                6,
+                1
+            ],
+            "properties": {
+                "powered": 0,
+                "locked": 0,
+                "powerid": "plate_3"
+            }
+        }
+    ]
+}
