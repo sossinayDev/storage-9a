@@ -1,6 +1,6 @@
 {
     "data": {
-        "name": "Piston",
+        "name": "More pistons",
         "difficulty": "Easy",
         "door": 0,
         "clones": 2,
@@ -52,6 +52,39 @@
             "item": "heavy_pressure_plate",
             "position": [
                 3,
+                2
+            ],
+            "properties": {
+                "powered": 0,
+                "locked": 0,
+                "powerid": "plate_1"
+            }
+        },
+        {
+            "item": "piston",
+            "position": [
+                4,
+                2
+            ],
+            "properties": {
+                "power": "plate_1",
+                "direction": "right"
+            }
+        },
+        {
+            "item": "crate",
+            "position": [
+                5,
+                2
+            ],
+            "properties": {
+                "moveable": 1
+            }
+        },
+        {
+            "item": "heavy_pressure_plate",
+            "position": [
+                6,
                 2
             ],
             "properties": {
