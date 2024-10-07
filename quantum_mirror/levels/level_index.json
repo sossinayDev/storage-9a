@@ -1,6 +1,14 @@
 {
+
+    "world_data": {
+        "author": "sossinayDev",
+        "version": "1",
+        "last_updated": "7. October 2024"
+    },
+
     "ordered": [
         "easy/push.json",
+        "easy/pistons.json",
         "medium/StackingRigids.json"
     ],
 
@@ -9,5 +17,9 @@
     ],
     "medium": [
         "medium/StackingRigids.json"
+    ],
+    "easy": [
+        "easy/pistons.json",
+        "easy/push.json"
     ]
 }

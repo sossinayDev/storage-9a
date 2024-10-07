@@ -1,0 +1,63 @@
+{
+    "data": {
+        "name": "Pistons",
+        "difficulty": "Easy",
+        "door": 0,
+        "clones": 2,
+        "level_time": 5,
+        "spawn_point": [
+            -235,
+            -125
+        ]
+    },
+    "door_predicates": [
+        {
+            "type": "is_powered?",
+            "target": "final_plate"
+        }
+    ],
+    "items": [
+        {
+            "item": "pressure_plate",
+            "position": [
+                1,
+                3
+            ],
+            "properties": {
+                "powerid": "playerplate"
+            }
+        },
+        {
+            "item": "piston",
+            "position": [
+                1,
+                2
+            ],
+            "properties": {
+                "power": "playerplate"
+            }
+        },
+        {
+            "item": "crate",
+            "position": [
+                2,
+                2
+            ],
+            "properties": {
+                "moveable": 1
+            }
+        },
+        {
+            "item": "heavy_pressure_plate",
+            "position": [
+                3,
+                2
+            ],
+            "properties": {
+                "powered": 0,
+                "locked": 0,
+                "powerid": "final_plate"
+            }
+        }
+    ]
+}
