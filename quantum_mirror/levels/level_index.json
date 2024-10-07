@@ -7,8 +7,9 @@
     },
 
     "ordered": [
-        "easy/push.json",
         "easy/pistons.json",
+        "easy/more_pistons.json",
+        "easy/push.json",
         "medium/StackingRigids.json"
     ],
 
@@ -20,6 +21,7 @@
     ],
     "easy": [
         "easy/pistons.json",
+        "easy/more_pistons.json",
         "easy/push.json"
     ]
 }
