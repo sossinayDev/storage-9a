@@ -34,7 +34,8 @@
                 2
             ],
             "properties": {
-                "power": "playerplate"
+                "power": "playerplate",
+                "direction": "right"
             }
         },
         {
