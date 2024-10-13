@@ -11,6 +11,7 @@
         "easy/pistons.json",
         "easy/more_pistons.json",
         "easy/push.json",
+        "medium/laser_labyrinth.json",
         "medium/StackingRigids.json"
     ],
 
@@ -18,6 +19,7 @@
         "tutorial/tutorial1.json"
     ],
     "medium": [
+        "medium/laser_labyrinth.json",
         "medium/StackingRigids.json"
     ],
     "easy": [
