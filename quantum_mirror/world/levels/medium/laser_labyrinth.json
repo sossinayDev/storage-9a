@@ -1,0 +1,42 @@
+{
+    "data": {
+        "name": "Laser labyrinth",
+        "difficulty": "Medium",
+        "door": 0,
+        "clones": 1,
+        "level_time": 7,
+        "spawn_point": [
+            0,
+            -125
+        ]
+    },
+    "door_predicates": [],
+    "items": [
+        {
+            "item": "laser_emitter",
+            "position": [
+                5,
+                1
+            ],
+            "properties": {
+                "beam_id": "l_1",
+                "beam_to": "l_2",
+                "power_type": "static",
+                "power": true
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                5,
+                3
+            ],
+            "properties": {
+                "beam_id": "l_2",
+                "beam_to": "l_1",
+                "power_type": "static",
+                "power": true
+            }
+        }
+    ]
+}
