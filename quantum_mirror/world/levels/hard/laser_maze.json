@@ -1,0 +1,160 @@
+{
+    "data": {
+        "name": "Laser Maze",
+        "difficulty": "hard",
+        "door": -246.2,
+        "clones": "1",
+        "level_time": "10",
+        "spawn_point": [
+            279.4,
+            -143.2
+        ]
+    },
+    "door_predicates": [],
+    "items": [
+        {
+            "item": "laser_emitter",
+            "position": [
+                9,
+                5
+            ],
+            "properties": {
+                "beam_id": "5",
+                "beam_to": "6",
+                "power": "true",
+                "power_type": "static"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                9,
+                1
+            ],
+            "properties": {
+                "beam_id": "6",
+                "beam_to": "5",
+                "power": "true"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                11,
+                3
+            ],
+            "properties": {
+                "beam_id": "8"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                11,
+                2.25
+            ],
+            "properties": {
+                "beam_id": "9",
+                "beam_to": "10",
+                "power": "true",
+                "power_type": "static"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                0,
+                1.5
+            ],
+            "properties": {
+                "beam_id": "11",
+                "beam_to": "12",
+                "power_type": "static",
+                "power": "true"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                1.25,
+                1.5
+            ],
+            "properties": {
+                "beam_id": "12"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                13.5,
+                2.25
+            ],
+            "properties": {
+                "beam_id": "10"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                11,
+                0
+            ],
+            "properties": {
+                "beam_id": "7",
+                "beam_to": "8",
+                "power": "true",
+                "power_type": "static"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                7,
+                3
+            ],
+            "properties": {
+                "power": "true",
+                "power_type": "static",
+                "beam_to": "3"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                3,
+                3
+            ],
+            "properties": {
+                "power": "true",
+                "power_type": "static",
+                "beam_to": "2",
+                "beam_id": "3"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                6,
+                0
+            ],
+            "properties": {
+                "power": "true",
+                "power_type": "static",
+                "beam_id": "2",
+                "beam_to": "1"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                3,
+                0
+            ],
+            "properties": {
+                "power": "false",
+                "power_type": "static",
+                "beam_id": "1"
+            }
+        }
+    ]
+}
