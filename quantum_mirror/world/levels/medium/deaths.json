@@ -1,0 +1,75 @@
+{
+    "data": {
+        "name": "Deaths",
+        "difficulty": "medium",
+        "door": -155.49,
+        "clones": "3",
+        "level_time": "10",
+        "spawn_point": [
+            149.477,
+            -111.78
+        ]
+    },
+    "door_predicates": [],
+    "items": [
+        {
+            "item": "landmine",
+            "position": [
+                7,
+                4
+            ],
+            "properties": {}
+        },
+        {
+            "item": "landmine",
+            "position": [
+                8,
+                3
+            ],
+            "properties": {}
+        },
+        {
+            "item": "landmine",
+            "position": [
+                6,
+                1
+            ],
+            "properties": {}
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                4.75,
+                -0.5
+            ],
+            "properties": {
+                "power": "true",
+                "power_type": "static",
+                "beam_id": "1",
+                "beam_to": "2"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                4.75,
+                3
+            ],
+            "properties": {
+                "power": "false",
+                "power_type": "static",
+                "beam_id": "2"
+            }
+        },
+        {
+            "item": "landmine",
+            "position": [
+                11,
+                2
+            ],
+            "properties": {
+                "direction": "up"
+            }
+        }
+    ]
+}

