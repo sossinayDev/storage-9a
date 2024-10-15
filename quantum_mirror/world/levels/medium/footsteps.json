@@ -1,0 +1,150 @@
+{
+    "data": {
+        "name": "Footsteps",
+        "difficulty": "medium",
+        "door": -243.973,
+        "clones": "2",
+        "level_time": "10",
+        "spawn_point": [
+            279.4,
+            -143.2
+        ]
+    },
+    "door_predicates": [
+        {
+            "type": "is_powered?",
+            "target": "door"
+        }
+    ],
+    "items": [
+        {
+            "item": "pressure_plate",
+            "position": [
+                6,
+                3
+            ],
+            "properties": {
+                "powerid": "door"
+            }
+        },
+        {
+            "item": "pressure_plate",
+            "position": [
+                6,
+                2
+            ],
+            "properties": {
+                "powerid": "eliminate"
+            }
+        },
+        {
+            "item": "pressure_plate",
+            "position": [
+                6,
+                1
+            ],
+            "properties": {
+                "powerid": null
+            }
+        },
+        {
+            "item": "pressure_plate",
+            "position": [
+                6,
+                0
+            ],
+            "properties": {
+                "powerid": "eliminate"
+            }
+        },
+        {
+            "item": "pressure_plate",
+            "position": [
+                6,
+                -1
+            ],
+            "properties": {
+                "powerid": "eliminate"
+            }
+        },
+        {
+            "item": "crate",
+            "position": [
+                0,
+                -0.25
+            ],
+            "properties": {
+                "moveable": "0"
+            }
+        },
+        {
+            "item": "crate",
+            "position": [
+                1,
+                0.75
+            ],
+            "properties": {
+                "moveable": "0"
+            }
+        },
+        {
+            "item": "crate",
+            "position": [
+                2,
+                0.75
+            ],
+            "properties": {
+                "moveable": "0"
+            }
+        },
+        {
+            "item": "landmine",
+            "position": [
+                2.5,
+                3.5
+            ],
+            "properties": {}
+        },
+        {
+            "item": "piston",
+            "position": [
+                3,
+                1.75
+            ],
+            "properties": {
+                "direction": "up",
+                "power": "eliminate"
+            }
+        },
+        {
+            "item": "crate",
+            "position": [
+                3,
+                0.75
+            ],
+            "properties": {}
+        },
+        {
+            "item": "piston",
+            "position": [
+                2,
+                1.75
+            ],
+            "properties": {
+                "direction": "up",
+                "power": "eliminate"
+            }
+        },
+        {
+            "item": "pressure_plate",
+            "position": [
+                6,
+                4
+            ],
+            "properties": {
+                "direction": "up",
+                "powerid": "eliminate"
+            }
+        }
+    ]
+}

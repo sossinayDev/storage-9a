@@ -1,0 +1,158 @@
+{
+    "data": {
+        "name": "Laser lab",
+        "difficulty": "hard",
+        "door": -243.973,
+        "clones": "2",
+        "level_time": "10",
+        "spawn_point": [
+            279.4,
+            -143.2
+        ]
+    },
+    "door_predicates": [
+        {
+            "type": "is_powered?",
+            "target": "plate_1"
+        }
+    ],
+    "items": [
+        {
+            "item": "piston",
+            "position": [
+                11,
+                1
+            ],
+            "properties": {
+                "direction": "left",
+                "power": "plate_1"
+            }
+        },
+        {
+            "item": "pressure_plate",
+            "position": [
+                1.25,
+                -0.5
+            ],
+            "properties": {
+                "powerid": "door_plate"
+            }
+        },
+        {
+            "item": "metal_box",
+            "position": [
+                10,
+                0
+            ],
+            "properties": {}
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                5,
+                2
+            ],
+            "properties": {
+                "power": "false",
+                "power_type": "static",
+                "beam_id": "2"
+            }
+        },
+        {
+            "item": "piston",
+            "position": [
+                8,
+                0
+            ],
+            "properties": {
+                "direction": "down",
+                "power": "door_plate"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                7,
+                0
+            ],
+            "properties": {
+                "power": "true",
+                "power_type": "static",
+                "beam_id": "3",
+                "beam_to": "2"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                3,
+                0
+            ],
+            "properties": {
+                "power": "true",
+                "power_type": "static",
+                "beam_to": "2"
+            }
+        },
+        {
+            "item": "heavy_pressure_plate",
+            "position": [
+                5,
+                0
+            ],
+            "properties": {
+                "powerid": "plate_2"
+            }
+        },
+        {
+            "item": "crate",
+            "position": [
+                5,
+                0
+            ],
+            "properties": {}
+        },
+        {
+            "item": "piston",
+            "position": [
+                4,
+                0
+            ],
+            "properties": {
+                "direction": "right",
+                "power": "door_plate"
+            }
+        },
+        {
+            "item": "metal_box",
+            "position": [
+                10,
+                2
+            ],
+            "properties": {
+                "direction": "up"
+            }
+        },
+        {
+            "item": "heavy_pressure_plate",
+            "position": [
+                10,
+                1
+            ],
+            "properties": {
+                "direction": "up",
+                "powerid": "plate1"
+            }
+        },
+        {
+            "item": "crate",
+            "position": [
+                9,
+                1
+            ],
+            "properties": {
+                "direction": "up"
+            }
+        }
+    ]
+}
