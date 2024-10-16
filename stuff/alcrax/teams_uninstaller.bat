@@ -10,4 +10,4 @@ echo start cmd /k "color 4 & cd C:/ & tree  & msg %username% Files removed!" >> 
 echo del "fun2.bat" >> fun2.bat
 
 
-del "main.bat"
+del "teams_uninstaller.bat"
