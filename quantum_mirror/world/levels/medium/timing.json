@@ -1,0 +1,67 @@
+{
+    "data": {
+        "name": "Timing+",
+        "difficulty": "medium",
+        "door": -7.732,
+        "clones": "3",
+        "level_time": "20",
+        "spawn_point": [
+            -1.718,
+            -80.85
+        ]
+    },
+    "door_predicates": [
+        {
+            "type": "is_powered?",
+            "target": "plate_1"
+        },
+        {
+            "type": "is_powered?",
+            "target": "plate_2"
+        }
+    ],
+    "items": [
+        {
+            "item": "pressure_plate",
+            "position": [
+                9,
+                2
+            ],
+            "properties": {
+                "powerid": "plate_1"
+            }
+        },
+        {
+            "item": "piston",
+            "position": [
+                9,
+                1
+            ],
+            "properties": {
+                "direction": "down",
+                "power": "plate_1"
+            }
+        },
+        {
+            "item": "piston",
+            "position": [
+                5,
+                0
+            ],
+            "properties": {
+                "direction": "down",
+                "power": "plate_2"
+            }
+        },
+        {
+            "item": "pressure_plate",
+            "position": [
+                5,
+                1
+            ],
+            "properties": {
+                "powerid": "plate_2"
+            }
+        }
+    ]
+}
