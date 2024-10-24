@@ -12,10 +12,9 @@
         "easy/more_pistons.json",
         "easy/push.json",
         "medium/StackingRigids.json",
-        "medium/footsteps.json",
         "medium/deaths.json",
-        "hard/laser_lab.json",
-        "hard/laser_maze.json"
+        "hard/laser_maze.json",
+        "hard/dontstressout.json"
     ],
 
     "tutorial": [
@@ -33,6 +32,6 @@
     ],
     "hard": [
         "hard/laser_maze.json",
-        "hard/laser_lab.json"
+        "hard/dontstressout.json"
     ]
 }

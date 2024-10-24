@@ -1,0 +1,168 @@
+{
+    "data": {
+        "name": "Don't stress out",
+        "difficulty": "hard",
+        "door": -243.973,
+        "clones": "2",
+        "level_time": "9",
+        "spawn_point": [
+            279.4,
+            -143.2
+        ]
+    },
+    "door_predicates": [
+        {
+            "type": "is_powered?",
+            "target": "1"
+        },
+        {
+            "type": "is_powered?",
+            "target": "2"
+        }
+    ],
+    "items": [
+        {
+            "item": "crate",
+            "position": [
+                10,
+                1
+            ],
+            "properties": {
+                "moveable": "1"
+            }
+        },
+        {
+            "item": "piston",
+            "position": [
+                7,
+                1
+            ],
+            "properties": {
+                "direction": "right",
+                "power": "kill"
+            }
+        },
+        {
+            "item": "pressure_plate",
+            "position": [
+                3,
+                -0.5
+            ],
+            "properties": {
+                "powerid": "kill"
+            }
+        },
+        {
+            "item": "pressure_plate",
+            "position": [
+                3,
+                0.5
+            ],
+            "properties": {
+                "powerid": "kill"
+            }
+        },
+        {
+            "item": "pressure_plate",
+            "position": [
+                2.25,
+                0.5
+            ],
+            "properties": {
+                "powerid": "kill"
+            }
+        },
+        {
+            "item": "pressure_plate",
+            "position": [
+                1.5,
+                0.5
+            ],
+            "properties": {
+                "powerid": "kill"
+            }
+        },
+        {
+            "item": "pressure_plate",
+            "position": [
+                0,
+                0.5
+            ],
+            "properties": {
+                "powerid": "kill"
+            }
+        },
+        {
+            "item": "heavy_pressure_plate",
+            "position": [
+                9,
+                0
+            ],
+            "properties": {
+                "2": null,
+                "powerid": "2"
+            }
+        },
+        {
+            "item": "crate",
+            "position": [
+                10,
+                0
+            ],
+            "properties": {
+                "moveable": "0"
+            }
+        },
+        {
+            "item": "crate",
+            "position": [
+                8,
+                2
+            ],
+            "properties": {
+                "moveable": "0"
+            }
+        },
+        {
+            "item": "crate",
+            "position": [
+                9,
+                2
+            ],
+            "properties": {
+                "moveable": "1"
+            }
+        },
+        {
+            "item": "pressure_plate",
+            "position": [
+                0.75,
+                0.5
+            ],
+            "properties": {
+                "powerid": "kill"
+            }
+        },
+        {
+            "item": "pressure_plate",
+            "position": [
+                3,
+                0
+            ],
+            "properties": {
+                "powerid": "kill"
+            }
+        },
+        {
+            "item": "heavy_pressure_plate",
+            "position": [
+                8,
+                1
+            ],
+            "properties": {
+                "direction": "up",
+                "powerid": "1"
+            }
+        }
+    ]
+}
