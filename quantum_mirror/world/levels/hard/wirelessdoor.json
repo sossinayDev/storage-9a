@@ -29,14 +29,6 @@
             }
         },
         {
-            "item": "landmine",
-            "position": [
-                8,
-                0
-            ],
-            "properties": {}
-        },
-        {
             "item": "crate",
             "position": [
                 1,
