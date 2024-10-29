@@ -1,0 +1,257 @@
+{
+    "data": {
+        "name": "The safe",
+        "difficulty": "hard",
+        "door": -3.342,
+        "clones": "4",
+        "level_time": "15",
+        "spawn_point": [
+            -1.2,
+            -116.2
+        ]
+    },
+    "door_predicates": [
+        {
+            "type": "is_powered?",
+            "target": "door"
+        }
+    ],
+    "items": [
+        {
+            "item": "laser_emitter",
+            "position": [
+                4,
+                2
+            ],
+            "properties": {
+                "power": "false",
+                "power_type": "static",
+                "beam_id": "2"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                9,
+                -1
+            ],
+            "properties": {
+                "power": "true",
+                "power_type": "static",
+                "beam_id": "3",
+                "beam_to": "4"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                9,
+                2
+            ],
+            "properties": {
+                "power": "false",
+                "power_type": "static",
+                "beam_id": "4"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                9.75,
+                -0.5
+            ],
+            "properties": {
+                "power": "false",
+                "power_type": "static",
+                "beam_id": "12"
+            }
+        },
+        {
+            "item": "heavy_pressure_plate",
+            "position": [
+                1,
+                0
+            ],
+            "properties": {
+                "powerid": "plate1"
+            }
+        },
+        {
+            "item": "heavy_pressure_plate",
+            "position": [
+                12,
+                0
+            ],
+            "properties": {
+                "powerid": "lasers"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                10,
+                2
+            ],
+            "properties": {
+                "power": "plate1",
+                "power_type": "linked_reversed",
+                "beam_id": "01",
+                "beam_to": "02"
+            }
+        },
+        {
+            "item": "piston",
+            "position": [
+                0,
+                1
+            ],
+            "properties": {
+                "direction": "right",
+                "power": "plate2"
+            }
+        },
+        {
+            "item": "crate",
+            "position": [
+                1,
+                1
+            ],
+            "properties": {}
+        },
+        {
+            "item": "crate",
+            "position": [
+                2,
+                2
+            ],
+            "properties": {
+                "moveable": "0"
+            }
+        },
+        {
+            "item": "heavy_pressure_plate",
+            "position": [
+                3,
+                2
+            ],
+            "properties": {
+                "door": null,
+                "powerid": "door"
+            }
+        },
+        {
+            "item": "crate",
+            "position": [
+                12,
+                2
+            ],
+            "properties": {}
+        },
+        {
+            "item": "pressure_plate",
+            "position": [
+                0,
+                4
+            ],
+            "properties": {
+                "powerid": "plate2"
+            }
+        },
+        {
+            "item": "crate",
+            "position": [
+                1,
+                2
+            ],
+            "properties": {}
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                10,
+                5
+            ],
+            "properties": {
+                "power": "false",
+                "power_type": "static",
+                "beam_id": "02"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                9.75,
+                1
+            ],
+            "properties": {
+                "power": "false",
+                "power_type": "static",
+                "beam_id": "32"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                3.25,
+                1
+            ],
+            "properties": {
+                "power": "lasers",
+                "power_type": "linked_reversed",
+                "beam_id": "31",
+                "beam_to": "32"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                9.75,
+                0.25
+            ],
+            "properties": {
+                "power": "false",
+                "power_type": "static",
+                "beam_id": "22"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                3.25,
+                0.25
+            ],
+            "properties": {
+                "power": "lasers",
+                "power_type": "linked_reversed",
+                "beam_id": "21",
+                "beam_to": "22"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                3.25,
+                -0.5
+            ],
+            "properties": {
+                "power": "lasers",
+                "power_type": "linked_reversed",
+                "beam_id": "11",
+                "beam_to": "12"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                4,
+                -1
+            ],
+            "properties": {
+                "power": "true",
+                "power_type": "static",
+                "beam_id": "1",
+                "beam_to": "2"
+            }
+        }
+    ]
+}

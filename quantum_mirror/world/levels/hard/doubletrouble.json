@@ -1,0 +1,79 @@
+{
+    "data": {
+        "name": "Double trouble",
+        "difficulty": "hard",
+        "door": -3.342,
+        "clones": "2",
+        "level_time": "9",
+        "spawn_point": [
+            0.668,
+            -81.058
+        ]
+    },
+    "door_predicates": [
+        {
+            "type": "is_powered?",
+            "target": "plate1"
+        },
+        {
+            "type": "is_powered?",
+            "target": "plate3"
+        },
+        {
+            "type": "is_powered?",
+            "target": "plate2"
+        }
+    ],
+    "items": [
+        {
+            "item": "pressure_plate",
+            "position": [
+                6,
+                0
+            ],
+            "properties": {
+                "plate1": null,
+                "powerid": "plate1"
+            }
+        },
+        {
+            "item": "piston",
+            "position": [
+                13,
+                0
+            ],
+            "properties": {
+                "direction": "left",
+                "power": "plate1"
+            }
+        },
+        {
+            "item": "pressure_plate",
+            "position": [
+                1,
+                3
+            ],
+            "properties": {
+                "powerid": "plate3"
+            }
+        },
+        {
+            "item": "crate",
+            "position": [
+                12,
+                0
+            ],
+            "properties": {}
+        },
+        {
+            "item": "heavy_pressure_plate",
+            "position": [
+                7,
+                0
+            ],
+            "properties": {
+                "powerid": "plate2"
+            }
+        }
+    ]
+}

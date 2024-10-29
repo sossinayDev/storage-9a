@@ -11,10 +11,14 @@
         "easy/pistons.json",
         "easy/more_pistons.json",
         "easy/push.json",
+        "easy/thirdtimesacharm.json",
         "medium/StackingRigids.json",
         "medium/deaths.json",
+        "hard/doubletrouble.json",
+        "hard/wirelessdoor.json",
         "hard/laser_maze.json",
-        "hard/dontstressout.json"
+        "hard/dontstressout.json",
+        "hard/thesafe.json"
     ],
 
     "tutorial": [
@@ -28,10 +32,14 @@
     "easy": [
         "easy/pistons.json",
         "easy/more_pistons.json",
-        "easy/push.json"
+        "easy/push.json",
+        "easy/thirdtimesacharm.json"
     ],
     "hard": [
+        "hard/doubletrouble.json",
+        "hard/wirelessdoor.json",
         "hard/laser_maze.json",
-        "hard/dontstressout.json"
+        "hard/dontstressout.json",
+        "hard/thesafe.json"
     ]
 }

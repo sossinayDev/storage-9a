@@ -1,0 +1,63 @@
+{
+    "data": {
+        "name": "Third time's a charm",
+        "difficulty": "easy",
+        "door": -3.342,
+        "clones": "4",
+        "level_time": "9",
+        "spawn_point": [
+            0.668,
+            -81.058
+        ]
+    },
+    "door_predicates": [],
+    "items": [
+        {
+            "item": "crate",
+            "position": [
+                1,
+                3
+            ],
+            "properties": {}
+        },
+        {
+            "item": "heavy_pressure_plate",
+            "position": [
+                10,
+                0
+            ],
+            "properties": {
+                "powerid": "plate2"
+            }
+        },
+        {
+            "item": "crate",
+            "position": [
+                12,
+                0
+            ],
+            "properties": {}
+        },
+        {
+            "item": "pressure_plate",
+            "position": [
+                10,
+                4
+            ],
+            "properties": {
+                "powerid": "plate3"
+            }
+        },
+        {
+            "item": "heavy_pressure_plate",
+            "position": [
+                1,
+                1
+            ],
+            "properties": {
+                "plate1": null,
+                "powerid": "plate1"
+            }
+        }
+    ]
+}

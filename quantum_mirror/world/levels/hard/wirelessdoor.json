@@ -1,0 +1,181 @@
+{
+    "data": {
+        "name": "Wireless door",
+        "difficulty": "hard",
+        "door": -243.973,
+        "clones": "2",
+        "level_time": "7",
+        "spawn_point": [
+            279.4,
+            -143.2
+        ]
+    },
+    "door_predicates": [
+        {
+            "type": "is_powered?",
+            "target": "door"
+        }
+    ],
+    "items": [
+        {
+            "item": "heavy_pressure_plate",
+            "position": [
+                7,
+                0
+            ],
+            "properties": {
+                "direction": "up",
+                "powerid": "door"
+            }
+        },
+        {
+            "item": "landmine",
+            "position": [
+                8,
+                0
+            ],
+            "properties": {}
+        },
+        {
+            "item": "crate",
+            "position": [
+                1,
+                3
+            ],
+            "properties": {
+                "moveable": "0"
+            }
+        },
+        {
+            "item": "crate",
+            "position": [
+                2,
+                4
+            ],
+            "properties": {
+                "moveable": "1"
+            }
+        },
+        {
+            "item": "crate",
+            "position": [
+                1,
+                5
+            ],
+            "properties": {
+                "moveable": "1"
+            }
+        },
+        {
+            "item": "pressure_plate",
+            "position": [
+                1,
+                4
+            ],
+            "properties": {
+                "plate2": "plate2",
+                "powerid": "plate2"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                0,
+                2
+            ],
+            "properties": {
+                "power": "false",
+                "power_type": "static",
+                "beam_id": "1"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                2,
+                2
+            ],
+            "properties": {
+                "power": "true",
+                "power_type": "static",
+                "beam_id": "2",
+                "beam_to": "1"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                8.25,
+                1
+            ],
+            "properties": {
+                "power": "false",
+                "power_type": "static",
+                "beam_id": "4"
+            }
+        },
+        {
+            "item": "laser_emitter",
+            "position": [
+                6,
+                0
+            ],
+            "properties": {
+                "power": "true",
+                "power_type": "static",
+                "beam_id": "3",
+                "beam_to": "4"
+            }
+        },
+        {
+            "item": "crate",
+            "position": [
+                0,
+                4
+            ],
+            "properties": {
+                "moveable": "0"
+            }
+        },
+        {
+            "item": "piston",
+            "position": [
+                2,
+                3
+            ],
+            "properties": {
+                "direction": "down",
+                "power": "plate1"
+            }
+        },
+        {
+            "item": "pressure_plate",
+            "position": [
+                10,
+                0
+            ],
+            "properties": {
+                "powerid": "plate1"
+            }
+        },
+        {
+            "item": "crate",
+            "position": [
+                8,
+                0
+            ],
+            "properties": {}
+        },
+        {
+            "item": "piston",
+            "position": [
+                9,
+                0
+            ],
+            "properties": {
+                "direction": "left",
+                "power": "plate2"
+            }
+        }
+    ]
+}
