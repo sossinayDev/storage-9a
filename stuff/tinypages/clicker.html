@@ -1,0 +1,15 @@
+<head>
+    <title>Miniclicker v0.1</title>
+    <script>
+        let score = 0;
+        function clickCounter() {
+            score++;
+            document.getElementById("count").textContent = score.toString();
+            console.log(score);
+        }
+    </script>
+</head>
+<body>
+    <h1 id="count">0</h1>
+    <button onclick="clickCounter()">[ CLICK ]</button>
+</body>
