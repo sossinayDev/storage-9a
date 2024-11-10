@@ -3,7 +3,7 @@
         "name": "Push",
         "difficulty": "Easy",
         "door": 200,
-        "clones": 2,
+        "clones": 3,
         "level_time": 7,
         "spawn_point": [
             -235,
